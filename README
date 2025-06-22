@@ -1,18 +1,31 @@
-Linux kernel
-============
+# Peachi OS
+
+Peachi OS is a custom operating system built on top of the Linux kernel.  
+It inherits the power and flexibility of Linux, with a focus on modern, user-centered customization.
+
+---
+
+Peachi OS is built on the Linux kernel.
 
 There are several guides for kernel developers and users. These guides can
 be rendered in a number of formats, like HTML and PDF. Please read
-Documentation/admin-guide/README.rst first.
+`Documentation/admin-guide/README.rst` first.
 
-In order to build the documentation, use ``make htmldocs`` or
-``make pdfdocs``.  The formatted documentation can also be read online at:
+In order to build the documentation, use `make htmldocs` or
+`make pdfdocs`. The formatted documentation can also be read online at:
 
-    https://www.kernel.org/doc/html/latest/
+   https://coreastarstroupe.netlify.app/papers
 
-There are various text files in the Documentation/ subdirectory,
+There are various text files in the `Documentation/` subdirectory,
 several of them using the reStructuredText markup notation.
 
-Please read the Documentation/process/changes.rst file, as it contains the
+Please read the `Documentation/process/changes.rst` file, as it contains the
 requirements for building and running the kernel, and information about
 the problems which may result by upgrading your kernel.
+
+---
+
+This customized kernel is part of **Peachi OS**, and may include additional modules, patches, or configuration presets specific to the Peachi environment. While based on upstream Linux, Peachi OS introduces its own goals and ecosystem.
+
+> This is not an official Linux release.  
+> Peachi OS is an independent project built on the official Linux kernel.
